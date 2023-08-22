@@ -6,8 +6,8 @@
     float: left;
     padding-top: 0%;
     background-color: blueviolet;
-    width: auto;
-    height: 100px;
+    width: 100%;
+    height: auto;
 }
 .btn{
     border: none;
@@ -26,12 +26,12 @@
 .btn2{
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 4px;
     cursor: pointer;
     background-color: dodgerblue;
     border-radius: 50px;
@@ -72,6 +72,17 @@
     margin-left: auto;
     background-color: brown;
     max-width: 1170px;
+}
+.nav-bars{
+    float: left;
+    margin-right: 100px;
+
+}
+
+.register{
+    float: right;
+    /* margin-left: 100px; */
+
 }
 
 #inner_header {

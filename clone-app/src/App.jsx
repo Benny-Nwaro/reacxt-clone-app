@@ -4,7 +4,7 @@
 import './App.css'
 import Title from './components/Title'
 import MovieList from './components/MovieList'
-import Car from "./components/Header"
+import Header from "./components/Header"
 
 function App() {
  
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className='App'>
-      <Car />
+      <Header />
       <Title />
       <MovieList />
         

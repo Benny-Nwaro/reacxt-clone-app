@@ -1,12 +1,13 @@
 import React from 'react'
 import './header.css'
 
-function Car() {
+
+function Headers() {
     return (
 
       <div className='main-container'> 
         <div className='nav-bars'>
-        <img src="./logo-removebg-preview.png" alt="React Image" />
+        <img src="../assets/images/logo-removebg-preview.png" alt="Logo" />
           
           <button type="button" className='btn'>Home</button>
 
@@ -33,4 +34,4 @@ function Car() {
 
   }
   
-  export default Car;
+  export default Headers;

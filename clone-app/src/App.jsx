@@ -2,9 +2,12 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Title from './components/Title'
+
 import MovieList from './components/MovieList'
-import Header from "./components/Header"
+import Navbar from './components/Navbar'
+import Content from './components/Content'
+
+// import Button from './components/Button'
 
 function App() {
  
@@ -12,9 +15,11 @@ function App() {
   return (
     <>
       <div className='App'>
-      <Header />
-      <Title />
-      <MovieList />
+      
+      {/* <Navbar/>
+      
+      <MovieList /> */}
+      <Content/>
         
         
       </div>

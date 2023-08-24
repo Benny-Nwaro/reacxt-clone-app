@@ -1,8 +1,13 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
+  height: 100px;
+  background-color: rgb(76, 0, 255); /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, black, rgb(22, 4, 124));
+  width: 100%;
+  height: auto;
 }
 
 .logo {

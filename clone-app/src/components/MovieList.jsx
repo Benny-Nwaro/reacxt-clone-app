@@ -5,25 +5,15 @@ import { Movies } from '../MovieData';
 
 function MovieList() {
   return (
-    <div className='expanded-div'>
-     
-      
-
+    <div className='w-auto '>
       <div> {Movies.map((Movie) => ( 
-        
-              <div className="float-child " key={Movie.id}> 
-                    <img src={Movie.image} alt='Movie image' />
-                     <h3>{Movie.name}</h3> 
-                        
-  
-
-                  
-               </div> )
+          <div className="float-child " key={Movie.id}> 
+              <img className='h-auto max-w-lg rounded-lg hover:scale-110' src={Movie.image} alt='Movie image' />
+                <h3>{Movie.name}</h3> 
+          </div> )
                )} 
-    </div>
-
-
-    </div>
+      </div>
+   </div>
   )
 }
 

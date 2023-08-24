@@ -14,7 +14,5 @@ export const Movies = [
     {
         id: 4, name: 'NO HARD FEELINGS', image:'https://images.moviesanywhere.com/74c5fa22854deac5735b86acab59158b/6078bb0f-b600-4c6d-9856-a13b8bbdf492.webp?h=375&resize=fit&w=250'
     },
-    {
-        id: 5, name: 'BABYLON', image:'https://images.moviesanywhere.com/bcecaf96601686ceacba979e70f5c4b9/65bfeb06-d0b2-4755-bb96-ea6b791a29cb.webp?h=375&resize=fit&w=250'
-    },
+
 ]

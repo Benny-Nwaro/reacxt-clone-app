@@ -1,7 +1,7 @@
 .expanded-div{
-    width: 1800px;
+    width: auto;
     height: 500px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .float-child {

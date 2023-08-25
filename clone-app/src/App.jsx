@@ -1,33 +1,19 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Wonder from "./components/wonder";
+import MovieList from "./components/MovieList";
 
-import MovieList from './components/MovieList'
-import Navbar from './components/Navbar'
-import Content from './components/Content'
-
-// import Button from './components/Button'
 
 function App() {
- 
-
   return (
     <>
-      <div className='App'>
-      
-      {/* <Navbar/>
-      
-      <MovieList /> */}
-      <Content/>
-        
-        
+      <div className="App">
+      <Navbar />
+      <Wonder />
+      <MovieList />
+     
       </div>
-      
-      
-      
     </>
-
-  )
+  );
 }
-export default App
+export default App;
